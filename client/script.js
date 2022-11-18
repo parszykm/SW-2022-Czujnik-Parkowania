@@ -27,13 +27,13 @@ setInterval(() => {
                 }
             })
         }
-        if(res.data > 0.8){
+        if(res.data < 20){
             carImage.src='./assets/car_red.png'
         }
-        else if(res.data > 0.6){
+        else if(res.data < 60){
             carImage.src='./assets/car_orange.png'
         }
-        else if(res.data > 0.4){
+        else if(res.data < 100){
             carImage.src='./assets/car_green.png'
         }
         else {

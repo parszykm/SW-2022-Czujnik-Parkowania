@@ -1,1 +1,0 @@
-# SW-2022-Czujnik-Parkowania
